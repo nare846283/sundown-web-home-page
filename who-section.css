@@ -1,0 +1,366 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+.who_section{
+    -webkit-text-size-adjust: 100%;
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    --animate-line-color: #efeae3;
+    --animate-line-speed: 0.2s;
+    --animate-line-ease: cubic-bezier(0.12, 0, 0.39, 0);
+    --circle-btn-bg: #0b0500;
+    --circle-btn-text: #ffffff;
+    --circle-btn-speed: 0.3s;
+    --circle-btn-half-speed: 0.15s;
+    --circle-ease-out: cubic-bezier(0.61, 1, 0.88, 1);
+    --circle-ease-in: cubic-bezier(0.12, 0, 0.39, 0);
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-size: calc(0.5357142857142858vw + 0.5178571428571429em);
+    box-sizing: border-box;
+    display: block;
+    margin-top: 8.75em;
+    position: relative;
+
+    /* background-color: black; */
+}
+
+.container{
+    -webkit-text-size-adjust: 100%;
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    --animate-line-color: #efeae3;
+    --animate-line-speed: 0.2s;
+    --animate-line-ease: cubic-bezier(0.12, 0, 0.39, 0);
+    --circle-btn-bg: #0b0500;
+    --circle-btn-text: #ffffff;
+    --circle-btn-speed: 0.3s;
+    --circle-btn-half-speed: 0.15s;
+    --circle-ease-out: cubic-bezier(0.61, 1, 0.88, 1);
+    --circle-ease-in: cubic-bezier(0.12, 0, 0.39, 0);
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-size: calc(0.5357142857142858vw + 0.5178571428571429em);
+    box-sizing: border-box;
+    z-index: 2;
+    width: 100%;
+    flex: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 5.625em;
+    padding-right: 5.625em;
+    display: flex;
+}
+
+.who_heading{
+    -webkit-text-size-adjust: 100%;
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    --animate-line-color: #efeae3;
+    --animate-line-speed: 0.2s;
+    --animate-line-ease: cubic-bezier(0.12, 0, 0.39, 0);
+    --circle-btn-bg: #0b0500;
+    --circle-btn-text: #ffffff;
+    --circle-btn-speed: 0.3s;
+    --circle-btn-half-speed: 0.15s;
+    --circle-ease-out: cubic-bezier(0.61, 1, 0.88, 1);
+    --circle-ease-in: cubic-bezier(0.12, 0, 0.39, 0);
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-size: calc(0.5357142857142858vw + 0.5178571428571429em);
+    box-sizing: border-box;
+    z-index: 3;
+    width: 64%;
+    max-width: 51.25em;
+    position: relative;
+}
+
+.heading-style-h1{
+    -webkit-text-size-adjust: 100%;
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    --animate-line-color: #efeae3;
+    --animate-line-speed: 0.2s;
+    --animate-line-ease: cubic-bezier(0.12, 0, 0.39, 0);
+    --circle-btn-bg: #0b0500;
+    --circle-btn-text: #ffffff;
+    --circle-btn-speed: 0.3s;
+    --circle-btn-half-speed: 0.15s;
+    --circle-ease-out: cubic-bezier(0.61, 1, 0.88, 1);
+    --circle-ease-in: cubic-bezier(0.12, 0, 0.39, 0);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box;
+    margin: .67em 0;
+    letter-spacing: -.03em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #0b0500;
+    font-family: Neuehaasdisplay mediu, sans-serif;
+    font-size: 4.25em;
+    font-weight: 500;
+    line-height: 1;
+}
+
+h1{
+    letter-spacing: -.03em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.who_p{
+    -webkit-text-size-adjust: 100%;
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    --animate-line-color: #efeae3;
+    --animate-line-speed: 0.2s;
+    --animate-line-ease: cubic-bezier(0.12, 0, 0.39, 0);
+    --circle-btn-bg: #0b0500;
+    --circle-btn-text: #ffffff;
+    --circle-btn-speed: 0.3s;
+    --circle-btn-half-speed: 0.15s;
+    --circle-ease-out: cubic-bezier(0.61, 1, 0.88, 1);
+    --circle-ease-in: cubic-bezier(0.12, 0, 0.39, 0);
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-size: calc(0.5357142857142858vw + 0.5178571428571429em);
+    box-sizing: border-box;
+    z-index: 5;
+    width: 25%;
+    max-width: 18em;
+    grid-column-gap: 3em;
+    grid-row-gap: 3em;
+    flex-direction: column;
+    margin-top: 8.75em;
+    display: flex;
+    position: relative;
+}
+
+.who_img{
+    -webkit-text-size-adjust: 100%;
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    --animate-line-color: #efeae3;
+    --animate-line-speed: 0.2s;
+    --animate-line-ease: cubic-bezier(0.12, 0, 0.39, 0);
+    --circle-btn-bg: #0b0500;
+    --circle-btn-text: #ffffff;
+    --circle-btn-speed: 0.3s;
+    --circle-btn-half-speed: 0.15s;
+    --circle-ease-out: cubic-bezier(0.61, 1, 0.88, 1);
+    --circle-ease-in: cubic-bezier(0.12, 0, 0.39, 0);
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-size: calc(0.5357142857142858vw + 0.5178571428571429em);
+    box-sizing: border-box;
+    padding-top: 66.67%;
+    position: relative;
+}
+
+.image{
+    border-radius: 0.5em;
+    display: block;
+}
+
+.image{
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* display: block; */
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+img{
+    max-width: 100%;
+}
+
+.who-gradient-wrapper{
+    -webkit-text-size-adjust: 100%;
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    --animate-line-color: #efeae3;
+    --animate-line-speed: 0.2s;
+    --animate-line-ease: cubic-bezier(0.12, 0, 0.39, 0);
+    --circle-btn-bg: #0b0500;
+    --circle-btn-text: #ffffff;
+    --circle-btn-speed: 0.3s;
+    --circle-btn-half-speed: 0.15s;
+    --circle-ease-out: cubic-bezier(0.61, 1, 0.88, 1);
+    --circle-ease-in: cubic-bezier(0.12, 0, 0.39, 0);
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    max-height: 42em;
+    max-width: 42em;
+    -webkit-text-fill-color: inherit;
+    background-color: rgba(27, 27, 27, 0);
+    background-clip: content-box;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 8%;
+    margin-left: 16%;
+    margin-right: auto;
+    font-size: 1em;
+    display: block;
+    position: absolute;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: auto;
+    overflow: visible;
+}
+
+.who-shapes-wrapper {
+    -webkit-text-size-adjust: 100%;
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    --animate-line-color: #efeae3;
+    --animate-line-speed: 0.2s;
+    --animate-line-ease: cubic-bezier(0.12, 0, 0.39, 0);
+    --circle-btn-bg: #0b0500;
+    --circle-btn-text: #ffffff;
+    --circle-btn-speed: 0.3s;
+    --circle-btn-half-speed: 0.15s;
+    --circle-ease-out: cubic-bezier(0.61, 1, 0.88, 1);
+    --circle-ease-in: cubic-bezier(0.12, 0, 0.39, 0);
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -webkit-text-fill-color: inherit;
+    font-size: 1em;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    position: static;
+}
+
+.who-shape-2{
+    -webkit-text-size-adjust: 100%;
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    --animate-line-color: #efeae3;
+    --animate-line-speed: 0.2s;
+    --animate-line-ease: cubic-bezier(0.12, 0, 0.39, 0);
+    --circle-btn-bg: #0b0500;
+    --circle-btn-text: #ffffff;
+    --circle-btn-speed: 0.3s;
+    --circle-btn-half-speed: 0.15s;
+    --circle-ease-out: cubic-bezier(0.61, 1, 0.88, 1);
+    --circle-ease-in: cubic-bezier(0.12, 0, 0.39, 0);
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -webkit-text-fill-color: inherit;
+    font-size: 1em;
+    box-sizing: border-box;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    max-height: 34em;
+    max-width: 34em;
+    filter: blur(60px);
+    background-color: #fe330a;
+    transition: all ease 5s;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: absolute;
+    top: 6em;
+    bottom: auto;
+    left: auto;
+    right: 4em;
+    transform: translate3d(0.5845%, -0.8183%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+.who-shape-1{
+    -webkit-text-size-adjust: 100%;
+    --swiper-theme-color: #007aff;
+    --swiper-navigation-size: 44px;
+    --animate-line-color: #efeae3;
+    --animate-line-speed: 0.2s;
+    --animate-line-ease: cubic-bezier(0.12, 0, 0.39, 0);
+    --circle-btn-bg: #0b0500;
+    --circle-btn-text: #ffffff;
+    --circle-btn-speed: 0.3s;
+    --circle-btn-half-speed: 0.15s;
+    --circle-ease-out: cubic-bezier(0.61, 1, 0.88, 1);
+    --circle-ease-in: cubic-bezier(0.12, 0, 0.39, 0);
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -webkit-text-fill-color: inherit;
+    font-size: 1em;
+    box-sizing: border-box;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    max-height: 32em;
+    max-width: 32em;
+    filter: blur(10px);
+    background-color: #ff9831;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: absolute;
+    top: 3em;
+    bottom: auto;
+    left: auto;
+    right: 2em;
+    transform: translate3d(-8.69949%, 6.76627%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(86.9949deg) skew(9.6661deg, 0deg);
+    transform-style: preserve-3d;
+    will-change: transform;
+}

@@ -1,0 +1,52 @@
+@media screen and (min-width: 992px) {
+
+    /* Animate Circle */
+    :root {
+        --circle-btn-bg: #0b0500;
+        --circle-btn-text: #ffffff;
+        --circle-btn-speed: 0.3s;
+        --circle-btn-half-speed: 0.15s;
+        --circle-ease-out: cubic-bezier(0.61, 1, 0.88, 1);
+        --circle-ease-in: cubic-bezier(0.12, 0, 0.39, 0);
+    }
+
+    .reveal-circle {
+        position: relative;
+        overflow: hidden;
+        
+    }
+
+    .reveal-circle:hover {
+        color: var(--circle-btn-text);
+        background-color: var(--circle-btn-bg);
+        transition: background-color 0.0s linear var(--circle-btn-speed);
+    }
+
+    .reveal-circle::after {
+        pointer-events: none;
+        background-color: var(--circle-btn-bg);
+        transform: translateY(5em);
+        content: "";
+        z-index: -1;
+        position: absolute;
+        width: 100%;
+        padding-top: 100%;
+        left: 0%;
+        top: 0%;
+        right: 0%;
+        bottom: auto;
+        border-radius: 50%;
+        transition: border-radius var(--circle-btn-half-speed) var(--circle-ease-in) 0.0s, transform var(--circle-btn-speed) var(--circle-ease-in);
+    }
+
+    .reveal-circle:hover::after {
+        border-radius: 0%;
+        transform: translateY(0em);
+        transition: border-radius var(--circle-btn-half-speed) var(--circle-ease-out) var(--circle-btn-half-speed), transform var(--circle-btn-speed) var(--circle-ease-out);
+    }
+
+    .reveal-circle.color-type-2 {
+        --circle-btn-bg: #EFEAE3;
+        --circle-btn-text: #0b0500;
+    }
+}
